@@ -1,8 +1,8 @@
 name: Import
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: "10 0 * * *"
+  schedule:
+    - cron: "10 */12 * * *"
 permissions:
   contents: write
 jobs:
