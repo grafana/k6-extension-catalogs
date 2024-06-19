@@ -1,0 +1,1459 @@
+{
+  "clickhouse": {
+    "module": "github.com/Maksimall89/xk6-output-clickhouse",
+    "versions": [
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "dashboard": {
+    "module": "github.com/grafana/xk6-dashboard",
+    "versions": [
+      "v0.7.4",
+      "v0.7.3",
+      "v0.7.3-alpha.1",
+      "v0.7.2",
+      "v0.7.1",
+      "v0.7.0",
+      "v0.7.0-apha.3",
+      "v0.7.0-alpha.5",
+      "v0.7.0-alpha.4",
+      "v0.7.0-alpha.3",
+      "v0.7.0-alpha.2",
+      "v0.7.0-alpha.1",
+      "v0.6.1",
+      "v0.6.0",
+      "v0.5.5",
+      "v0.5.4",
+      "v0.5.3",
+      "v0.5.2",
+      "v0.5.1",
+      "v0.5.0",
+      "v0.4.4",
+      "v0.4.3",
+      "v0.4.2",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.2",
+      "v0.3.1",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "dynatrace": {
+    "module": "github.com/dynatrace/xk6-output-dynatrace"
+  },
+  "elasticsearch": {
+    "module": "github.com/elastic/xk6-output-elasticsearch",
+    "versions": [
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "es": {
+    "module": "github.com/BarthV/xk6-es",
+    "versions": [
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "influxdb": {
+    "module": "github.com/grafana/xk6-output-influxdb",
+    "versions": [
+      "v0.4.3",
+      "v0.4.2",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "k6": {
+    "module": "go.k6.io/k6",
+    "versions": [
+      "v0.51.0",
+      "v0.50.0",
+      "v0.49.0",
+      "v0.48.0",
+      "v0.47.0",
+      "v0.46.0",
+      "v0.45.1",
+      "v0.45.0",
+      "v0.44.1",
+      "v0.44.0",
+      "v0.43.1",
+      "v0.43.0",
+      "v0.42.0",
+      "v0.41.0",
+      "v0.40.0",
+      "v0.39.0",
+      "v0.38.3",
+      "v0.38.2",
+      "v0.38.1",
+      "v0.38.0",
+      "v0.37.0",
+      "v0.36.0",
+      "v0.35.0",
+      "v0.34.1",
+      "v0.34.0",
+      "v0.33.0",
+      "v0.32.0",
+      "v0.31.1",
+      "v0.31.0",
+      "v0.30.0",
+      "v0.29.0",
+      "v0.28.0",
+      "v0.27.1",
+      "v0.27.0",
+      "v0.26.2",
+      "v0.26.1",
+      "v0.26.0",
+      "v0.25.1",
+      "v0.25.0",
+      "v0.24.0",
+      "v0.23.1",
+      "v0.23.0",
+      "v0.22.1",
+      "v0.22.0",
+      "v0.21.1",
+      "v0.21.0",
+      "v0.20.0",
+      "v0.19.0",
+      "v0.18.2",
+      "v0.18.1",
+      "v0.18.0",
+      "v0.17.2",
+      "v0.17.1",
+      "v0.17.0",
+      "v0.16.0",
+      "v0.15.0",
+      "v0.14.0",
+      "v0.13.0",
+      "v0.12.2",
+      "v0.12.1",
+      "v0.11.0",
+      "v0.10.0",
+      "v0.9.3",
+      "v0.9.2",
+      "v0.9.1",
+      "v0.9.0",
+      "v0.8.5",
+      "v0.8.4",
+      "v0.8.3",
+      "v0.8.2",
+      "v0.8.1",
+      "v0.8.0",
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.2",
+      "v0.5.1",
+      "v0.5.0",
+      "v0.4.5",
+      "v0.4.4",
+      "v0.4.3",
+      "v0.4.2",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/ansible-vault": {
+    "module": "github.com/szkiba/xk6-ansible-vault",
+    "versions": [
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/cable": {
+    "module": "github.com/anycable/xk6-cable",
+    "versions": [
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.0",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/cache": {
+    "module": "github.com/szkiba/xk6-cache",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/celery": {
+    "module": "github.com/fornfrey/xk6-celery"
+  },
+  "k6/x/chai": {
+    "module": "github.com/szkiba/xk6-chai",
+    "versions": [
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/client-prometheus-remote": {
+    "module": "github.com/grafana/xk6-client-prometheus-remote",
+    "versions": [
+      "v0.3.1",
+      "v0.3.0",
+      "v0.2.4",
+      "v0.2.3",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.0",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/client-tracing": {
+    "module": "github.com/grafana/xk6-client-tracing",
+    "versions": [
+      "v0.0.5",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/coap": {
+    "module": "github.com/golioth/xk6-coap",
+    "versions": [
+      "v0.1.0"
+    ]
+  },
+  "k6/x/cognito": {
+    "module": "github.com/tmieulet/xk6-cognito",
+    "versions": [
+      "v0.0.1"
+    ]
+  },
+  "k6/x/couchbase": {
+    "module": "github.com/thotasrinath/xk6-couchbase",
+    "versions": [
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/csv": {
+    "module": "github.com/szkiba/xk6-csv",
+    "versions": [
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/disruptor": {
+    "module": "github.com/grafana/xk6-disruptor",
+    "versions": [
+      "v0.3.11",
+      "v0.3.10",
+      "v0.3.9",
+      "v0.3.8",
+      "v0.3.7",
+      "v0.3.6",
+      "v0.3.5",
+      "v0.3.5-rc2",
+      "v0.3.5-rc1",
+      "v0.3.4",
+      "v0.3.3",
+      "v0.3.2",
+      "v0.3.1",
+      "v0.3.0",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/dotenv": {
+    "module": "github.com/szkiba/xk6-dotenv",
+    "versions": [
+      "v0.2.0",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/ethereum": {
+    "module": "github.com/distribworks/xk6-ethereum",
+    "versions": [
+      "v1.0.3",
+      "v1.0.2",
+      "v1.0.1",
+      "v1.0.0"
+    ]
+  },
+  "k6/x/exec": {
+    "module": "github.com/grafana/xk6-exec",
+    "versions": [
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.0",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/faker": {
+    "module": "github.com/szkiba/xk6-faker",
+    "versions": [
+      "v0.3.0",
+      "v0.3.0-alpha.1",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/fasthttp": {
+    "module": "github.com/domsolutions/xk6-fasthttp"
+  },
+  "k6/x/file": {
+    "module": "github.com/avitalique/xk6-file",
+    "versions": [
+      "v1.4.0",
+      "v1.3.1",
+      "v1.3.0",
+      "v1.2.3",
+      "v1.2.1",
+      "v1.2.0",
+      "v1.1.0"
+    ]
+  },
+  "k6/x/g0": {
+    "module": "github.com/szkiba/xk6-g0",
+    "versions": [
+      "v0.1.5",
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/gcp": {
+    "module": "github.com/deejiw/xk6-gcp",
+    "versions": [
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.7",
+      "v0.2.6",
+      "v0.2.5",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.4",
+      "v0.0.4-rc1",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/git": {
+    "module": "github.com/skibum55/xk6-git",
+    "versions": [
+      "v0.0.8",
+      "v0.0.7",
+      "v0.0.6",
+      "v0.0.5",
+      "v0.0.4"
+    ]
+  },
+  "k6/x/google-iap": {
+    "module": "github.com/AckeeCZ/xk6-google-iap"
+  },
+  "k6/x/harbor": {
+    "module": "github.com/heww/xk6-harbor"
+  },
+  "k6/x/httpagg": {
+    "module": "github.com/gpiechnik2/xk6-httpagg",
+    "versions": [
+      "v1.0.0"
+    ]
+  },
+  "k6/x/iap": {
+    "module": "github.com/AckeeCZ/xk6-google-iap"
+  },
+  "k6/x/input-prometheus": {
+    "module": "github.com/JorTurFer/xk6-input-prometheus"
+  },
+  "k6/x/interpret": {
+    "module": "github.com/deejiw/xk6-interpret",
+    "versions": [
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.6"
+    ]
+  },
+  "k6/x/kafka": {
+    "module": "github.com/mostafa/xk6-kafka",
+    "versions": [
+      "v0.26.0",
+      "v0.25.1",
+      "v0.25.0",
+      "v0.24.2",
+      "v0.24.1",
+      "v0.24.0",
+      "v0.23.1",
+      "v0.23.0",
+      "v0.22.0",
+      "v0.21.1",
+      "v0.21.0",
+      "v0.20.2",
+      "v0.20.1",
+      "v0.20.0",
+      "v0.19.1",
+      "v0.19.0",
+      "v0.18.2",
+      "v0.18.1",
+      "v0.18.0",
+      "v0.17.0",
+      "v0.16.1",
+      "v0.16.0",
+      "v0.15.1",
+      "v0.15.0",
+      "v0.14.2",
+      "v0.14.1",
+      "v0.14.0",
+      "v0.13.1",
+      "v0.13.0",
+      "v0.12.0",
+      "v0.11.0",
+      "v0.10.0",
+      "v0.9.0",
+      "v0.8.0",
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.0",
+      "v0.3.1",
+      "v0.3.0",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/kubernetes": {
+    "module": "github.com/grafana/xk6-kubernetes",
+    "versions": [
+      "v0.9.0",
+      "v0.8.0",
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.5",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/kv": {
+    "module": "github.com/oleiade/xk6-kv",
+    "versions": [
+      "v1.0.0"
+    ]
+  },
+  "k6/x/loki": {
+    "module": "github.com/grafana/xk6-loki"
+  },
+  "k6/x/mllp": {
+    "module": "github.com/gjergjsheldija/xk6-mllp",
+    "versions": [
+      "v0.0.8",
+      "v0.0.7",
+      "v0.0.6",
+      "v0.0.5",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/mock": {
+    "module": "github.com/szkiba/xk6-mock",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/mongo": {
+    "module": "github.com/GhMartingit/xk6-mongo",
+    "versions": [
+      "v1.0.3",
+      "v1.0.2",
+      "v1.0.1",
+      "v1.0.0",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.5",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/mqtt": {
+    "module": "github.com/pmalhaire/xk6-mqtt",
+    "versions": [
+      "v0.40.0",
+      "v0.39.2",
+      "v0.39.1",
+      "v0.39.0",
+      "v0.38.0",
+      "v0.37.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/nats": {
+    "module": "github.com/ydarias/xk6-nats"
+  },
+  "k6/x/neo4j": {
+    "module": "github.com/patrick-janeiro/xk6-neo4j",
+    "versions": [
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/nostr": {
+    "module": "github.com/akiomik/xk6-nostr",
+    "versions": [
+      "v0.1.0"
+    ]
+  },
+  "k6/x/notification": {
+    "module": "github.com/grafana/xk6-notification",
+    "versions": [
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/oauth-pkce": {
+    "module": "github.com/frankhefeng/xk6-oauth-pkce",
+    "versions": [
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/opentelemetry": {
+    "module": "github.com/thmshmm/xk6-opentelemetry",
+    "versions": [
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/output-prometheus-pushgateway": {
+    "module": "github.com/martymarron/xk6-output-prometheus-pushgateway",
+    "versions": [
+      "v0.2.4",
+      "v0.2.3",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/pkce": {
+    "module": "github.com/frankhefeng/xk6-oauth-pkce",
+    "versions": [
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/playwright": {
+    "module": "github.com/wosp-io/xk6-playwright",
+    "versions": [
+      "v0.3.3",
+      "v0.3.2",
+      "v0.3.1",
+      "v0.2.5",
+      "v0.2.4",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/plist": {
+    "module": "github.com/mcosta74/xk6-plist",
+    "versions": [
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/prometheus": {
+    "module": "github.com/JorTurFer/xk6-input-prometheus"
+  },
+  "k6/x/prompt": {
+    "module": "github.com/Juandavi1/xk6-prompt"
+  },
+  "k6/x/proxy": {
+    "module": "github.com/SYM01/xk6-proxy",
+    "versions": [
+      "v1.0.0"
+    ]
+  },
+  "k6/x/pushgateway": {
+    "module": "github.com/martymarron/xk6-output-prometheus-pushgateway",
+    "versions": [
+      "v0.2.4",
+      "v0.2.3",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/read": {
+    "module": "github.com/acuenca-facephi/xk6-read",
+    "versions": [
+      "v1.0.0-rc1"
+    ]
+  },
+  "k6/x/remote": {
+    "module": "github.com/grafana/xk6-client-prometheus-remote",
+    "versions": [
+      "v0.3.1",
+      "v0.3.0",
+      "v0.2.4",
+      "v0.2.3",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.0",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/smtp": {
+    "module": "github.com/gpiechnik2/xk6-smtp",
+    "versions": [
+      "v1.0.0"
+    ]
+  },
+  "k6/x/sql": {
+    "module": "github.com/grafana/xk6-sql",
+    "versions": [
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/sqs": {
+    "module": "github.com/mridehalgh/xk6-sqs"
+  },
+  "k6/x/sse": {
+    "module": "github.com/phymbert/xk6-sse",
+    "versions": [
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/ssh": {
+    "module": "github.com/grafana/xk6-ssh",
+    "versions": [
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/stomp": {
+    "module": "github.com/walterwanderley/xk6-stomp",
+    "versions": [
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.26",
+      "v0.0.25",
+      "v0.0.23",
+      "v0.0.21",
+      "v0.0.20",
+      "v0.0.19",
+      "v0.0.18",
+      "v0.0.16",
+      "v0.0.15",
+      "v0.0.14",
+      "v0.0.13",
+      "v0.0.12",
+      "v0.0.11",
+      "v0.0.10",
+      "v0.0.9",
+      "v0.0.8",
+      "v0.0.7",
+      "v0.0.6",
+      "v0.0.5",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/tcp": {
+    "module": "github.com/NAlexandrov/xk6-tcp"
+  },
+  "k6/x/telegram": {
+    "module": "github.com/maksimall89/xk6-telegram",
+    "versions": [
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/toml": {
+    "module": "github.com/szkiba/xk6-toml",
+    "versions": [
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/tracing": {
+    "module": "github.com/grafana/xk6-client-tracing",
+    "versions": [
+      "v0.0.5",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "k6/x/ts": {
+    "module": "github.com/szkiba/xk6-ts",
+    "versions": [
+      "v0.2.6",
+      "v0.2.5",
+      "v0.2.4",
+      "v0.2.3",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/vault": {
+    "module": "github.com/szkiba/xk6-ansible-vault",
+    "versions": [
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/webtransport": {
+    "module": "github.com/kelseyaubrecht/xk6-webtransport",
+    "versions": [
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "k6/x/yaml": {
+    "module": "github.com/szkiba/xk6-yaml",
+    "versions": [
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "kafka": {
+    "module": "github.com/grafana/xk6-output-kafka",
+    "versions": [
+      "v0.7.1",
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "output-clickhouse": {
+    "module": "github.com/Maksimall89/xk6-output-clickhouse",
+    "versions": [
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "output-dynatrace": {
+    "module": "github.com/dynatrace/xk6-output-dynatrace"
+  },
+  "output-elasticsearch": {
+    "module": "github.com/elastic/xk6-output-elasticsearch",
+    "versions": [
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "output-influxdb": {
+    "module": "github.com/grafana/xk6-output-influxdb",
+    "versions": [
+      "v0.4.3",
+      "v0.4.2",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "output-kafka": {
+    "module": "github.com/grafana/xk6-output-kafka",
+    "versions": [
+      "v0.7.1",
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "output-plugin": {
+    "module": "github.com/szkiba/xk6-output-plugin",
+    "versions": [
+      "v0.1.0"
+    ]
+  },
+  "output-statsd": {
+    "module": "github.com/LeonAdato/xk6-output-statsd",
+    "versions": [
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.1"
+    ]
+  },
+  "output-timescaledb": {
+    "module": "github.com/grafana/xk6-output-timescaledb",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "output-timestream": {
+    "module": "github.com/leonyork/xk6-output-timestream",
+    "versions": [
+      "v0.9.31",
+      "v0.9.30",
+      "v0.9.29",
+      "v0.9.28",
+      "v0.9.27",
+      "v0.9.26",
+      "v0.9.25",
+      "v0.9.24",
+      "v0.9.23",
+      "v0.9.22",
+      "v0.9.21",
+      "v0.9.20",
+      "v0.9.19",
+      "v0.9.18",
+      "v0.9.17",
+      "v0.9.16",
+      "v0.9.15",
+      "v0.9.14",
+      "v0.9.13",
+      "v0.9.12",
+      "v0.9.11",
+      "v0.9.10",
+      "v0.9.9",
+      "v0.9.8",
+      "v0.9.7",
+      "v0.9.6",
+      "v0.9.5",
+      "v0.9.4",
+      "v0.9.3",
+      "v0.9.2",
+      "v0.9.1",
+      "v0.9.0",
+      "v0.8.70",
+      "v0.8.69",
+      "v0.8.68",
+      "v0.8.67",
+      "v0.8.66",
+      "v0.8.65",
+      "v0.8.64",
+      "v0.8.63",
+      "v0.8.62",
+      "v0.8.61",
+      "v0.8.60",
+      "v0.8.59",
+      "v0.8.58",
+      "v0.8.57",
+      "v0.8.56",
+      "v0.8.55",
+      "v0.8.54",
+      "v0.8.53",
+      "v0.8.52",
+      "v0.8.51",
+      "v0.8.50",
+      "v0.8.49",
+      "v0.8.48",
+      "v0.8.47",
+      "v0.8.46",
+      "v0.8.45",
+      "v0.8.44",
+      "v0.8.43",
+      "v0.8.42",
+      "v0.8.41",
+      "v0.8.40",
+      "v0.8.39",
+      "v0.8.38",
+      "v0.8.37",
+      "v0.8.36",
+      "v0.8.35",
+      "v0.8.34",
+      "v0.8.33",
+      "v0.8.32",
+      "v0.8.31",
+      "v0.8.30",
+      "v0.8.29",
+      "v0.8.28",
+      "v0.8.27",
+      "v0.8.26",
+      "v0.8.25",
+      "v0.8.24",
+      "v0.8.23",
+      "v0.8.22",
+      "v0.8.21",
+      "v0.8.20",
+      "v0.8.19",
+      "v0.8.18",
+      "v0.8.17",
+      "v0.8.16",
+      "v0.8.15",
+      "v0.8.14",
+      "v0.8.13",
+      "v0.8.12",
+      "v0.8.11",
+      "v0.8.10",
+      "v0.8.9",
+      "v0.8.8",
+      "v0.8.7",
+      "v0.8.6",
+      "v0.8.5",
+      "v0.8.4",
+      "v0.8.3"
+    ]
+  },
+  "plugin": {
+    "module": "github.com/szkiba/xk6-output-plugin",
+    "versions": [
+      "v0.1.0"
+    ]
+  },
+  "prometheus": {
+    "module": "github.com/szkiba/xk6-prometheus",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.5",
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "statsd": {
+    "module": "github.com/LeonAdato/xk6-output-statsd",
+    "versions": [
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.1"
+    ]
+  },
+  "timescaledb": {
+    "module": "github.com/grafana/xk6-output-timescaledb",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "timestream": {
+    "module": "github.com/leonyork/xk6-output-timestream",
+    "versions": [
+      "v0.9.31",
+      "v0.9.30",
+      "v0.9.29",
+      "v0.9.28",
+      "v0.9.27",
+      "v0.9.26",
+      "v0.9.25",
+      "v0.9.24",
+      "v0.9.23",
+      "v0.9.22",
+      "v0.9.21",
+      "v0.9.20",
+      "v0.9.19",
+      "v0.9.18",
+      "v0.9.17",
+      "v0.9.16",
+      "v0.9.15",
+      "v0.9.14",
+      "v0.9.13",
+      "v0.9.12",
+      "v0.9.11",
+      "v0.9.10",
+      "v0.9.9",
+      "v0.9.8",
+      "v0.9.7",
+      "v0.9.6",
+      "v0.9.5",
+      "v0.9.4",
+      "v0.9.3",
+      "v0.9.2",
+      "v0.9.1",
+      "v0.9.0",
+      "v0.8.70",
+      "v0.8.69",
+      "v0.8.68",
+      "v0.8.67",
+      "v0.8.66",
+      "v0.8.65",
+      "v0.8.64",
+      "v0.8.63",
+      "v0.8.62",
+      "v0.8.61",
+      "v0.8.60",
+      "v0.8.59",
+      "v0.8.58",
+      "v0.8.57",
+      "v0.8.56",
+      "v0.8.55",
+      "v0.8.54",
+      "v0.8.53",
+      "v0.8.52",
+      "v0.8.51",
+      "v0.8.50",
+      "v0.8.49",
+      "v0.8.48",
+      "v0.8.47",
+      "v0.8.46",
+      "v0.8.45",
+      "v0.8.44",
+      "v0.8.43",
+      "v0.8.42",
+      "v0.8.41",
+      "v0.8.40",
+      "v0.8.39",
+      "v0.8.38",
+      "v0.8.37",
+      "v0.8.36",
+      "v0.8.35",
+      "v0.8.34",
+      "v0.8.33",
+      "v0.8.32",
+      "v0.8.31",
+      "v0.8.30",
+      "v0.8.29",
+      "v0.8.28",
+      "v0.8.27",
+      "v0.8.26",
+      "v0.8.25",
+      "v0.8.24",
+      "v0.8.23",
+      "v0.8.22",
+      "v0.8.21",
+      "v0.8.20",
+      "v0.8.19",
+      "v0.8.18",
+      "v0.8.17",
+      "v0.8.16",
+      "v0.8.15",
+      "v0.8.14",
+      "v0.8.13",
+      "v0.8.12",
+      "v0.8.11",
+      "v0.8.10",
+      "v0.8.9",
+      "v0.8.8",
+      "v0.8.7",
+      "v0.8.6",
+      "v0.8.5",
+      "v0.8.4",
+      "v0.8.3"
+    ]
+  },
+  "top": {
+    "module": "github.com/szkiba/xk6-top",
+    "versions": [
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "tracetest": {
+    "module": "github.com/kubeshop/xk6-tracetest",
+    "versions": [
+      "v0.1.10",
+      "v0.1.9",
+      "v0.1.8",
+      "v0.1.7",
+      "v0.1.6",
+      "v0.1.5",
+      "v0.1.4",
+      "v0.1.4-rc.1",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "xk6-dashboard": {
+    "module": "github.com/grafana/xk6-dashboard",
+    "versions": [
+      "v0.7.4",
+      "v0.7.3",
+      "v0.7.3-alpha.1",
+      "v0.7.2",
+      "v0.7.1",
+      "v0.7.0",
+      "v0.7.0-apha.3",
+      "v0.7.0-alpha.5",
+      "v0.7.0-alpha.4",
+      "v0.7.0-alpha.3",
+      "v0.7.0-alpha.2",
+      "v0.7.0-alpha.1",
+      "v0.6.1",
+      "v0.6.0",
+      "v0.5.5",
+      "v0.5.4",
+      "v0.5.3",
+      "v0.5.2",
+      "v0.5.1",
+      "v0.5.0",
+      "v0.4.4",
+      "v0.4.3",
+      "v0.4.2",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.2",
+      "v0.3.1",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "xk6-es": {
+    "module": "github.com/BarthV/xk6-es",
+    "versions": [
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "xk6-output-clickhouse": {
+    "module": "github.com/Maksimall89/xk6-output-clickhouse",
+    "versions": [
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "xk6-output-dynatrace": {
+    "module": "github.com/dynatrace/xk6-output-dynatrace"
+  },
+  "xk6-output-elasticsearch": {
+    "module": "github.com/elastic/xk6-output-elasticsearch",
+    "versions": [
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "xk6-output-influxdb": {
+    "module": "github.com/grafana/xk6-output-influxdb",
+    "versions": [
+      "v0.4.3",
+      "v0.4.2",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.0"
+    ]
+  },
+  "xk6-output-kafka": {
+    "module": "github.com/grafana/xk6-output-kafka",
+    "versions": [
+      "v0.7.1",
+      "v0.7.0",
+      "v0.6.0",
+      "v0.5.0",
+      "v0.4.1",
+      "v0.4.0",
+      "v0.3.0",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "xk6-output-plugin": {
+    "module": "github.com/szkiba/xk6-output-plugin",
+    "versions": [
+      "v0.1.0"
+    ]
+  },
+  "xk6-output-statsd": {
+    "module": "github.com/LeonAdato/xk6-output-statsd",
+    "versions": [
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.1"
+    ]
+  },
+  "xk6-output-timescaledb": {
+    "module": "github.com/grafana/xk6-output-timescaledb",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0",
+      "v0.0.4",
+      "v0.0.3",
+      "v0.0.2",
+      "v0.0.1"
+    ]
+  },
+  "xk6-output-timestream": {
+    "module": "github.com/leonyork/xk6-output-timestream",
+    "versions": [
+      "v0.9.31",
+      "v0.9.30",
+      "v0.9.29",
+      "v0.9.28",
+      "v0.9.27",
+      "v0.9.26",
+      "v0.9.25",
+      "v0.9.24",
+      "v0.9.23",
+      "v0.9.22",
+      "v0.9.21",
+      "v0.9.20",
+      "v0.9.19",
+      "v0.9.18",
+      "v0.9.17",
+      "v0.9.16",
+      "v0.9.15",
+      "v0.9.14",
+      "v0.9.13",
+      "v0.9.12",
+      "v0.9.11",
+      "v0.9.10",
+      "v0.9.9",
+      "v0.9.8",
+      "v0.9.7",
+      "v0.9.6",
+      "v0.9.5",
+      "v0.9.4",
+      "v0.9.3",
+      "v0.9.2",
+      "v0.9.1",
+      "v0.9.0",
+      "v0.8.70",
+      "v0.8.69",
+      "v0.8.68",
+      "v0.8.67",
+      "v0.8.66",
+      "v0.8.65",
+      "v0.8.64",
+      "v0.8.63",
+      "v0.8.62",
+      "v0.8.61",
+      "v0.8.60",
+      "v0.8.59",
+      "v0.8.58",
+      "v0.8.57",
+      "v0.8.56",
+      "v0.8.55",
+      "v0.8.54",
+      "v0.8.53",
+      "v0.8.52",
+      "v0.8.51",
+      "v0.8.50",
+      "v0.8.49",
+      "v0.8.48",
+      "v0.8.47",
+      "v0.8.46",
+      "v0.8.45",
+      "v0.8.44",
+      "v0.8.43",
+      "v0.8.42",
+      "v0.8.41",
+      "v0.8.40",
+      "v0.8.39",
+      "v0.8.38",
+      "v0.8.37",
+      "v0.8.36",
+      "v0.8.35",
+      "v0.8.34",
+      "v0.8.33",
+      "v0.8.32",
+      "v0.8.31",
+      "v0.8.30",
+      "v0.8.29",
+      "v0.8.28",
+      "v0.8.27",
+      "v0.8.26",
+      "v0.8.25",
+      "v0.8.24",
+      "v0.8.23",
+      "v0.8.22",
+      "v0.8.21",
+      "v0.8.20",
+      "v0.8.19",
+      "v0.8.18",
+      "v0.8.17",
+      "v0.8.16",
+      "v0.8.15",
+      "v0.8.14",
+      "v0.8.13",
+      "v0.8.12",
+      "v0.8.11",
+      "v0.8.10",
+      "v0.8.9",
+      "v0.8.8",
+      "v0.8.7",
+      "v0.8.6",
+      "v0.8.5",
+      "v0.8.4",
+      "v0.8.3"
+    ]
+  },
+  "xk6-prometheus": {
+    "module": "github.com/szkiba/xk6-prometheus",
+    "versions": [
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.5",
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "xk6-top": {
+    "module": "github.com/szkiba/xk6-top",
+    "versions": [
+      "v0.2.0",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  },
+  "xk6-tracetest": {
+    "module": "github.com/kubeshop/xk6-tracetest",
+    "versions": [
+      "v0.1.10",
+      "v0.1.9",
+      "v0.1.8",
+      "v0.1.7",
+      "v0.1.6",
+      "v0.1.5",
+      "v0.1.4",
+      "v0.1.4-rc.1",
+      "v0.1.3",
+      "v0.1.2",
+      "v0.1.1",
+      "v0.1.0"
+    ]
+  }
+}
