@@ -921,6 +921,7 @@
   "output-timestream": {
     "module": "github.com/leonyork/xk6-output-timestream",
     "versions": [
+      "v0.9.32",
       "v0.9.31",
       "v0.9.30",
       "v0.9.29",
@@ -1019,8 +1020,7 @@
       "v0.8.7",
       "v0.8.6",
       "v0.8.5",
-      "v0.8.4",
-      "v0.8.3"
+      "v0.8.4"
     ]
   },
   "plugin": {
@@ -1066,6 +1066,7 @@
   "timestream": {
     "module": "github.com/leonyork/xk6-output-timestream",
     "versions": [
+      "v0.9.32",
       "v0.9.31",
       "v0.9.30",
       "v0.9.29",
@@ -1164,8 +1165,7 @@
       "v0.8.7",
       "v0.8.6",
       "v0.8.5",
-      "v0.8.4",
-      "v0.8.3"
+      "v0.8.4"
     ]
   },
   "top": {
@@ -1316,6 +1316,7 @@
   "xk6-output-timestream": {
     "module": "github.com/leonyork/xk6-output-timestream",
     "versions": [
+      "v0.9.32",
       "v0.9.31",
       "v0.9.30",
       "v0.9.29",
@@ -1414,8 +1415,7 @@
       "v0.8.7",
       "v0.8.6",
       "v0.8.5",
-      "v0.8.4",
-      "v0.8.3"
+      "v0.8.4"
     ]
   },
   "xk6-prometheus": {
