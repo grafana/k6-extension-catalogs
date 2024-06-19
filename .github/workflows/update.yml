@@ -1,0 +1,49 @@
+name: Update
+on:
+  workflow_dispatch:
+#  schedule:
+#    - cron: "40 * * * *"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install gh extensions
+        run: |
+          gh extension install grafana/gh-xk6
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Cache gh cache
+        id: cache-gh
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-gh-cache
+        with:
+          path: ~/.cache/gh
+          key: gh
+      - name: Update versions
+        run: |
+          gh xk6 catalog update -f catalog.json
+          gh xk6 catalog update -f official.json
+          gh xk6 catalog update -f cloud.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add and Push
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
