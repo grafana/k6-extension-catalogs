@@ -216,6 +216,7 @@
   "k6/x/client-prometheus-remote": {
     "module": "github.com/grafana/xk6-client-prometheus-remote",
     "versions": [
+      "v0.3.2",
       "v0.3.1",
       "v0.3.0",
       "v0.2.4",
@@ -676,6 +677,7 @@
   "k6/x/remote": {
     "module": "github.com/grafana/xk6-client-prometheus-remote",
     "versions": [
+      "v0.3.2",
       "v0.3.1",
       "v0.3.0",
       "v0.2.4",
