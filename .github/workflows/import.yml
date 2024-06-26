@@ -26,7 +26,7 @@ jobs:
           key: gh
       - name: Import extension registry
         run: |
-          gh xk6 catalog import -f catalog.json --force
+          gh xk6 catalog import -f registered.json --force
           gh xk6 catalog import -f official.json --preset official --force
           gh xk6 catalog import -f cloud.json --preset cloud --force
         env:

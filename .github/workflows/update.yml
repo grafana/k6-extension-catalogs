@@ -29,7 +29,7 @@ jobs:
           key: gh
       - name: Update versions
         run: |
-          gh xk6 catalog update -f catalog.json
+          gh xk6 catalog update -f registered.json
           gh xk6 catalog update -f official.json
           gh xk6 catalog update -f cloud.json
         env:
